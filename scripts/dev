@@ -1,3 +1,11 @@
 #!/usr/bin/env bash
 
-./scripts/build && ./scripts/run
+set -e
+
+echo "🔨 Building..."
+./scripts/build
+
+echo "🎮 Launching..."
+./scripts/run
+
+
