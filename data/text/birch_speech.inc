@@ -1,9 +1,13 @@
 gText_Birch_Welcome::
-	.string "underdogs are dangerous because they refuse to remain in obscurity!\p"
-	.string "Welcome to the world of POKéMON!\p"
-	.string "My name is BIRCH.\p"
+	.string "Sorry to keep you Waiting...\p"
+	.string "yet another Cinderhollow's brat...\p"
+	.string "dreaming to make it big!\p"
+	.string "My name is HOLLIS VANCE.\p"
 	.string "But everyone calls me the POKéMON\n"
 	.string "PROFESSOR.\p"
+	.string "I study Pokemon here in Ferrum...\p"
+	.string "though most people think the pokemon \p"
+	.string "I study aren't worth studying.\p"
 	.string "$"
 
 gText_Birch_Pokemon::
