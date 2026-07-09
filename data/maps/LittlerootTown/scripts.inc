@@ -144,8 +144,8 @@ LittlerootTown_EventScript_GoInsideWithMom::
 	delay 10
 	applymovement LOCALID_LITTLEROOT_MOM, LittlerootTown_Movement_MomApproachPlayerAtTruck
 	waitmovement 0
-	msgbox LittlerootTown_Text_OurNewHomeLetsGoInside, MSGBOX_DEFAULT
-	closemessage
+	
+	closemessagemsgbox LittlerootTown_Text_WelcomeToFerrum, MSGBOX_DEFAULT
 	applymovement LOCALID_LITTLEROOT_MOM, LittlerootTown_Movement_MomApproachDoor
 	applymovement LOCALID_PLAYER, LittlerootTown_Movement_PlayerApproachDoor
 	waitmovement 0
@@ -908,11 +908,11 @@ LittlerootTown_Text_OurNewHomeLetsGoInside:
 	.string "MOM: {PLAYER}, we're here, honey!\p"
 	.string "It must be tiring riding with our things\n"
 	.string "in the moving truck.\p"
-	.string "Well, this is LITTLEROOT TOWN.\p"
-	.string "How do you like it?\n"
+	.string "Well, this is CINDERHOLLOW TOWN.\p"
+	.string "I know its a strech?\n"
 	.string "This is our new home!\p"
-	.string "It has a quaint feel, but it seems to be\n"
-	.string "an easy place to live, don't you think?\p"
+	.string "It has a dreadly feel, but it seems to be\n"
+	.string "an easy place to survive. don't you think?\p"
 	.string "And, you get your own room, {PLAYER}!\n"
 	.string "Let's go inside.$"
 
