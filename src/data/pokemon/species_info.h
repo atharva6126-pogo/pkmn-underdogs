@@ -99,10 +99,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
 {
     [SPECIES_NONE] =
     {
-        .speciesName = _("??????????"),
+        .speciesName = _("EMBER"),
         .cryId = CRY_PORYGON,
         .natDexNum = NATIONAL_DEX_NONE,
-        .categoryName = _("Unknown"),
+        .categoryName = _("Stray"),
         .height = 0,
         .weight = 0,
         .description = gFallbackPokedexText,
